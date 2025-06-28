@@ -1,3 +1,11 @@
 *.jpeg
 *.png
 *.pth
+dataSetPibic/
+generated_covid19/
+generated_pneumonia_bacterial/
+generated_pneumonia_viral/
+models/
+samples_covid19/
+samples_pneumonia_bacterial/
+samples_pneumonia_viral/

@@ -1,0 +1,46 @@
+{
+  "dataset_info": {
+    "total_classes": 4,
+    "classes": [
+      "covid19",
+      "normal",
+      "pneumonia_bacterial",
+      "pneumonia_viral"
+    ],
+    "target_size": [
+      224,
+      224
+    ],
+    "splits": {
+      "train_ratio": 0.7,
+      "val_ratio": 0.15,
+      "test_ratio": 0.15
+    }
+  },
+  "class_distribution": {
+    "covid19": {
+      "train": 11497,
+      "val": 2356,
+      "test": 2357,
+      "total": 16210
+    },
+    "normal": {
+      "train": 11536,
+      "val": 2364,
+      "test": 2366,
+      "total": 16266
+    },
+    "pneumonia_bacterial": {
+      "train": 11518,
+      "val": 2361,
+      "test": 2361,
+      "total": 16240
+    },
+    "pneumonia_viral": {
+      "train": 11474,
+      "val": 2351,
+      "test": 2353,
+      "total": 16178
+    }
+  }
+}
